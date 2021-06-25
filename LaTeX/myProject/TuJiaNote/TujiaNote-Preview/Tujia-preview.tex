@@ -1,0 +1,718 @@
+%!TEX program = xelatex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% founder 选项: 方正字体     %
+% 原模板: ElegantLatex-Note %
+% TexLive 2020 + XeLaTeX   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[cn,blue,12pt,normal,founder]{elegantnote}
+
+\title{土家族医药学复习笔记}
+\author{shujuecn}
+% \institute{https://github.com/shujuecn}
+% \version{2.30}
+\date{\zhtoday}
+
+\usepackage{float}            % 取消浮动
+\usepackage{array}            % 表格
+\usepackage{makecell}         % 合并表格
+% \usepackage{ctex}
+\usepackage{ulem}             % 删除线 下划线
+% \usepackage{soul}
+% \usepackage{wrapfig}
+% \usepackage{graphicx}
+
+% 彩色预览版
+\newcommand{\redt}[1]{\textcolor{red}{{}#1}}      % 自定义红色字体命令
+
+\begin{document}
+
+\maketitle
+
+\section{绪论}
+
+\subsection{土家族医学的特点}
+
+\begin{enumerate}
+  \item 以古朴哲学思想为指导，并受多元文化的影响；
+  \item 以“三元学说”为核心构建土家族医药独特的理论体系；
+  \item 口耳相传；
+  \item 医药护一体化；
+  \item “五术一体”的传统外治法；
+  \item 药材多鲜用，擅蛇伤、骨伤科。
+\end{enumerate}
+
+\section{人体结构和功能}
+
+\subsection{三元脏器的组成及功能}
+
+\begin{enumerate}
+  \item 上元脏器（头元，居上天，统摄人体气、血、神志，为\redt{三元之首}。）
+  \begin{itemize}
+    \item 脑：主神
+    \item 心：主血
+    \item 肺：主呼吸
+  \end{itemize}
+  \item 中元脏器（腹元，居腹内，水谷出入、水精和谷精化生之处，为\redt{人体供养之本}。）
+  \begin{itemize}
+    \item 肚：主受纳、消磨
+    \item 肠：主饮食物的变化
+    \item 肝：主水谷精微的生成
+  \end{itemize}
+  \item 下元脏器（足元，居下元，排泌尿液，孕精生成之所，为\redt{生命发生之根}。）
+  \begin{itemize}
+    \item 腰子：主孕精的生成
+    \item 精脬：接受、排出孕精
+    \item 养儿肠：接受孕精，与男子孕精结合而生胎，或化生月经
+    \item 尿脬：主尿
+  \end{itemize}
+\end{enumerate}
+
+\subsection{十窍的组成及功能}
+
+\begin{enumerate}
+  \item 眼：二窍，司视万物，辨五色。
+  \item 鼻：二窍，司嗅味，进出气。
+  \item 耳：二窍，司听声音。
+  \item 口：一窍，司言语，纳吐。
+  \item 肛门：一窍，司排便。
+  \item 尿孔：一窍，司排尿。
+  \item 汗孔：一小窍，司排泄汗液。
+\end{enumerate}
+
+\subsection{肢节的组成及功能}
+
+\begin{enumerate}
+  \item 肢体
+  \begin{itemize}
+    \item 组成：手肢（上肢）、脚肢（下肢）、腰肢（躯干）。
+    \item 功能：维持人体的正常姿势。
+  \end{itemize}
+  \item 骨头
+  \begin{itemize}
+    \item 组成：长骨、大骨、短小骨。
+    \item 功能：支撑人体、保护内脏、进行运动。
+  \end{itemize}
+  \item 榫（骨节、关节）
+  \begin{itemize}
+    \item 定义：由两块及以上骨头连接起来，使其保持活动机能的\redt{联合处}。
+    \item 组成：上肢骨节、下肢骨节、腰肢骨节。
+    \item 功能：联结骨头、维持肢体骨节的运动。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{筋的组成及功能}
+
+\begin{enumerate}
+  \item 组成：肉筋索（肌腱）、肉皮筋（筋膜）、麻筋（神经）。
+  \item 功能：\redt{前两者}可约束骨节、主持运动、保护内脏。
+\end{enumerate}
+
+\subsection{血脉的组成及功能}
+
+\begin{enumerate}
+  \item 青筋（静脉）：将消耗了部分谷气和清气后的青血\redt{向心}输送。
+  \item 索筋（动脉）：由心\redt{向全身}输送具有营养作用的血液。
+\end{enumerate}
+
+\subsection{经脉的组成及功能}
+
+\begin{enumerate}
+  \item 组成
+  \begin{itemize}
+    \item 阳脉、阴脉、手脉、足脉、胞脉、裤腰带脉。
+  \end{itemize}
+  \item 功能
+  \begin{itemize}
+    \item 沟通三元；
+    \item 联系人体上下、内外、表里各组织器官；
+    \item 感应传导信息、调节机体平衡。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{土家医对气的认识}
+
+\begin{enumerate}
+  \item 气是\redt{构成人体}的基本物质
+  \begin{itemize}
+    \item 清气、谷气和精、血共同运行于筋脉中，循行至全身，充养人体各组织器官。
+  \end{itemize}
+  \item 气是\redt{维持生命活动}的主要物质基础
+  \begin{itemize}
+    \item 气具有激发、推动的生理作用，是人体生理活动的动力所在。
+    \item 气也是人体维持恒定体温的关键所在。
+  \end{itemize}
+  \item 气是\redt{产生疾病}的原因之一
+  \begin{itemize}
+    \item 各组织器官产生的废气不能排出，蓄成病气。
+    \item 自然界的病气、瘟气侵犯人体而致病。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{土家医对血的认识}
+
+\begin{enumerate}
+  \item 血的化生
+  \begin{itemize}
+    \item 水精与谷精在\redt{上元心气}的作用下，化生成为血液。
+  \end{itemize}
+  \item 血的功能
+  \begin{itemize}
+    \item 通过筋脉的输布到达全身各处，起\redt{濡养}作用；
+    \item 与谷气相合，输布于周身，起\redt{营养}作用；
+    \item 与清气结合，刺激机体生命活动，起\redt{动力}作用；
+  \end{itemize}
+  \begin{note}
+    血还与谷精共同参与\redt{孕精}的生成。
+  \end{note}
+  \item 血的分类
+  \begin{itemize}
+    \item 红血：具有濡养作用的血液
+    \item 青血：被消耗了部分谷气和清气后的血液
+    \item 污血：废气多、含有瘟气的血液
+    \item 黑血：失去了濡养作用的死血（瘀血）
+  \end{itemize}
+\end{enumerate}
+
+\subsection{土家医对精的认识}
+
+精是具有\redt{营养机体}和\redt{维持生育}功能的精微物质。
+
+\begin{enumerate}
+  \item 谷精
+  \begin{itemize}
+    \item 生成来源：饮食物。
+    \item 生成条件：维持正常的饮食、肚肠肝的功能正常。
+    \item 主要功能：\uline{营养作用、生成血液、化生孕精}。
+  \end{itemize}
+  \item 水精
+  \begin{itemize}
+    \item 生成来源：水饮流质食物。
+    \item 生成条件：维持正常的饮食、肚肠肝的功能正常。
+    \item 主要功能：\uline{濡养作用、生成血液、调节体温}。
+    \item 代谢途径：汗液、尿液、呼吸、大便。
+  \end{itemize}
+  \item 孕精
+  \begin{itemize}
+    \item 生成来源：谷精与血，在腰子的作用下生成。
+    \item 生成条件：谷精与血充盛、腰子功能健旺。
+    \item 主要功能：\uline{维持男女生殖功能}。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{气、血、精的环流及相互关系}
+
+\begin{enumerate}
+  \item 精与气：气能生精、精能化气。
+  \item 精与血：精能化血、血能生精。
+  \item 气与血：
+  \begin{itemize}
+    \item 气对血：气能生血、气能行血。
+    \item 血对气：血能载气、血能生气。
+  \end{itemize}
+\end{enumerate}
+\begin{note}
+  精、气、血三者均能相互影响。
+\end{note}
+
+\section{土家医病因、病理}
+
+\subsection{土家医对疾病病因的认识}
+
+\begin{enumerate}
+  \item 瘟气
+
+  因自然界的气候变化失常而产生的一系列致病因素。
+
+  \begin{itemize}
+    \item 风
+    \subitem 特性：变动无常、轻清开泄。
+    \subitem 分类：热风、冷风、水风、内风。
+
+    \item 寒
+    \subitem 特性：寒冷、凝滞。
+    \subitem 分类：外寒、内寒。
+    \item 暑
+    \subitem 特性：火热兼暑湿、夏季多发。
+    \item 湿
+    \subitem 特性：黏滞、水湿，与风寒暑相兼为病。
+    \subitem 分类：风湿、寒湿、暑湿。
+    \item 火
+    \subitem 特性：炎热。
+    \subitem 分类：外火、火毒、三元内火。
+  \end{itemize}
+
+  \item 伤食
+
+  \begin{itemize}
+    \item 饮食不洁
+    \subitem 食用不洁、变质、有毒的食物。
+    \item 饮食失度
+    \subitem 饮食过量：肚肠无力消化，食积发病。
+    \subitem 饮食不足：营养不足，气血精生成减少。
+    \item 饮食偏嗜
+    \subitem 饮食过冷、过热、长期偏食。
+  \end{itemize}
+
+  \item 劳伤
+
+  \begin{itemize}
+    \item 外劳伤
+    \subitem 跌打损伤、砸压、烧灼、冷冻。
+    \item 内劳伤
+    \subitem 房事无节制、劳神过度。
+  \end{itemize}
+
+  \item 情志
+
+  \begin{itemize}
+    \item 原因：突然、强烈、持久的情绪刺激。
+    \item 表现：三元脏器功能紊乱、气血运行紊乱、伤脑损神。
+  \end{itemize}
+
+  \item 毒伤
+
+  \begin{itemize}
+    \item 天毒（瘟毒）
+    \subitem \redt{动植物}腐败所滋生的秽浊之气，可传染，致病力强。
+    \item 蔫毒
+    \subitem 自然界中存在的\redt{有形毒物}。
+    \subitem 虫毒、食毒、水毒、草毒。
+    \item 玍毒
+    \subitem \redt{机体代谢产物}不能正常排出，蓄积体内而发病。
+    \subitem 气毒、血毒、尿毒、粪毒、脓毒、痰毒、胎毒、巴达毒。
+    \item 无名之毒
+  \end{itemize}
+
+  \item 内虚
+
+  \begin{itemize}
+    \item 原因：先天不足、后天失养，气血精亏虚。
+    \item 表现：机体脏器失养，功能失常，多种慢性病症。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{气血失调的病理变化}
+
+\begin{enumerate}
+  \item 气的病理
+  \begin{itemize}
+    \item 气亏：三元之气不足，脏腑组织功能减退，抗病能力差。
+    \item 气阻：三元之气流通不畅或阻滞，导致机体功能障碍。
+    \item 气逆：三元之气向上冲逆。
+  \end{itemize}
+
+  \begin{note}
+  「中医学」气的失常：气虚、气机失调（气滞、气逆、\uline{\redt{气陷}、\redt{气闭}、\redt{气脱}}）。
+  \end{note}
+
+  \item 血的病理
+  \begin{itemize}
+    \item 血亏：失血过多、化源不足，血液减少，组织器官失养。
+    \item 血瘀：血液在筋脉中运行不畅，或溢出脉外、停滞体内。
+    \item 出血：筋脉受损，血液溢出，经十窍排出体外。
+    \item 血热：三元脏器内火热盛，热侵血脉。
+    \item 血寒：寒气内舍血脉，凝滞气机，血行不畅。
+  \end{itemize}
+
+  \begin{note}
+  「中医学」血的失常：血虚、血行失常（血寒、血热、血瘀、出血）。
+  \end{note}
+\end{enumerate}
+
+\subsection{冷热失衡的病理变化}
+
+\begin{enumerate}
+  \item 冷的病理
+  % \begin{itemize}
+  %   \item 上元心肺气冷
+  %   \item 中元肚肠气冷
+  %   \item 下元腰子与养儿肠冷
+  % \end{itemize}
+  \begin{itemize}
+    \item 上元心肺气冷、中元肚肠冷、下元腰子与养儿肠冷。
+  \end{itemize}
+
+  \item 热的病理
+  % \begin{itemize}
+  %   \item 心肺热证
+  %   \item 肚肠热证
+  %   \item 十窍热证
+  % \end{itemize}
+  \begin{itemize}
+    \item 心肺热证、肚肠热证、十窍热证。
+  \end{itemize}
+
+  \item 冷热转化
+  \begin{itemize}
+    \item 由热转冷
+    \subitem 热气消退，冷气增长；治疗不当；体内气血损耗过多。
+    \item 由冷转热
+    \subitem 冷气消退，热气增长；用药过热，助长了体内热气。
+  \end{itemize}
+  \item 冷热交错
+  \begin{itemize}
+    \item 内外：外热内冷、外冷内热。
+    \item 上下：上热下冷、上冷下热。
+    \item 先后：先热后冷、先冷后热。
+  \end{itemize}
+\end{enumerate}
+
+\begin{note}
+  「中医学」除上述气血、冷热的病理外，还包括表里、虚实、津液、脏腑、经络等各种病理变化，并据此归类为不同的辩证方法，如八纲辨证、病性辨证、病位辩证等。
+\end{note}
+
+\section{土家医五诊法}
+
+% 土家医五诊法：看诊、问诊、听诊、脉诊、摸诊。
+
+\subsection{看诊}
+
+看神色、眼、舌、耳筋及耳、鼻、嘴、发、皮、指、背腹、二便、妇女病。
+
+\begin{enumerate}
+  \item 看耳的内容
+  \begin{itemize}
+    \item 小儿耳后筋脉
+    \subitem 露出一个“丫”形：走\redt{狗}胎
+    \subitem 筋上有一黑点：走\redt{兔}胎
+    \subitem 筋脉有猴子样凸起：走\redt{猴}胎
+    \item 妇人耳后筋脉
+    \subitem 红色：火气重
+    \subitem 青色：风气重
+    \subitem 紫色：阴内有脏物
+    \subitem 红暗色：妇科经带疾病
+    \subitem 青紫色：妇女玉宫或喜道内有肿块
+  \end{itemize}
+  \item 看手的内容
+  \begin{itemize}
+    \item 看指壳（指甲）的颜色
+    \subitem 手指应四季之疾：拇指为全年，食指为春季，中指为夏季，无名指为秋季，小指为冬季。
+    \subitem 指壳颜色：青、白、黄主寒，赤主火，黑主风。
+    \subitem 小儿指壳：乌黑色为走胎，红色主痨伤病，黄色主肿痛，白色主亏血。
+    \subitem 妇女指壳：紫黑为白带多。
+    \item 看中指的青筋（男左女右）
+    \subitem 见于第\redt{一}指节间：病\redt{轻}
+    \subitem 见于第\redt{二}指节间：病\redt{重}
+    \subitem 见于第\redt{三}指节间：病\redt{危}
+  \end{itemize}
+\end{enumerate}
+
+\subsection{问诊}
+
+问饮食、二便、筋脉骨节、七窍、妇女病。
+
+\subsection{听诊}
+
+听说话、呼吸、呻唤、咳嗽、咯声与肠鸣音、骨擦音、女科音。
+
+\subsection{脉诊}
+
+\begin{enumerate}
+  \item 土家医常用脉种
+  \begin{itemize}
+    \item 骨脉、命脉、芳脉、天脉、虎脉、肘关脉、踏地脉、鞋带脉、指缝脉、太阳脉（五阴六阳脉）、地支脉。
+  \end{itemize}
+  \item 土家医脉学特点
+  \begin{itemize}
+    \item 脉种繁多，脉象脉形简练；
+    \item 循时号脉；
+    \item 诊脉手法独特；
+    \item 多脉合诊。
+  \end{itemize}
+\end{enumerate}
+
+\subsection{摸诊}
+
+摸骨断、冷热、疱疮、肚子。
+
+\section{土家医治则治法}
+
+\subsection{土家医“七法八则”的治疗原则}
+
+\begin{enumerate}
+  \item 八则
+  \begin{itemize}
+    \item 寒则热之、热则寒之、亏则补之、实则泻之
+    \item 阻则通之、肿则消之、惊则镇之、湿则祛之
+  \end{itemize}
+  \item 七法
+  \begin{itemize}
+    \item 汗、\redt{泻}、\redt{赶}、止、补、温、清。
+  \end{itemize}
+  \begin{note}
+  中医八法：汗、吐、\redt{下}、和、温、清、\redt{消}、补。
+  \end{note}
+\end{enumerate}
+
+\subsection{土家医治毒法}
+
+\begin{itemize}
+  \item \redt{攻}毒法、\redt{败}毒法、\redt{赶}毒法、\redt{清}毒法、\redt{排}毒法
+  \item \redt{拔}毒法、\redt{化}毒法、\redt{散}毒法、\redt{调}毒法、\redt{放}（提）毒法
+\end{itemize}
+
+\subsection{土家医传统外治法}
+
+治疗\redt{小儿疾病}的外治法，有\uline{灯火疗法、提风疗法、蛋滚疗法、推抹疗法、翻背掐筋} \\ \uline{疗法}等。
+
+治疗\redt{风湿痹痛}的外治法，有\uline{药浴疗法、熏蒸疗法、滚袋熨贴疗法、摸油锅疗法、赶} \\ \uline{油火疗法、麝火针疗法、赶酒火疗法、搓药法、拔火罐疗法}等。
+
+治疗\redt{骨伤疾病}的外治法，有\uline{外敷疗法、药浴疗法、搓药法、封刀接骨法}等。
+
+
+
+\begin{enumerate}
+  \item 药棒疗法
+  \begin{itemize}
+    \item 方法：将药制成棒状或将木棒浸入药汁，捶击、敲打患处。
+    \item 功效：药物的浸入作用、药棒敲打的舒筋活络作用。
+    \item 适应证：半边瘫、麻木、肌肉筋膜疼痛、颈肩痛、腰腿疼。
+  \end{itemize}
+  \item 灯火疗法
+  \begin{itemize}
+    \item 方法：用灯芯蘸植物油，直接或间接点烧穴位。
+    % \item 分类：直接灯火、印（阴）灯火、半灯火、隔纸灯火。
+    \item 适应证：惊风症、小儿走胎、黄肿包、屙肚子、肚子痛、受凉、脑壳痛、风气麻木、扭伤、疱疮初期。
+  \end{itemize}
+  \begin{note}
+  治疗疾病最广泛的外治法，治疗\redt{小儿病}必不可少的手段。
+  \end{note}
+  \item 赶酒火疗法
+  \begin{itemize}
+    \item 方法：用双手反复抓取点燃的药酒，在患处按揉。
+    \item 功效：赶风除湿、舒筋活血。
+    \item 适应证：风气病，如风湿麻木、冷骨风、骨节风、寒气内停、半边风。
+    \item \redt{禁忌：}皮下有明显的血肿、高血压、心脏病患者忌用。
+  \end{itemize}
+  \item 提风疗法
+  \begin{itemize}
+    \item 方法：在熟鸡蛋中放入适量的药物，滴入桐油，紧敷于肚脐上。
+    \item 功效：赶风、赶寒、赶热、赶气。
+    \item 适应证：小儿因风寒风热引起的发热、抽筋或屙肚子、肚子胀、肚子痛及消化不良等症。
+  \end{itemize}
+  \item 蛋滚疗法
+  \begin{itemize}
+    \item 方法：将鸡蛋煮熟，在患者肚子上来回滚动。
+    \item 功效：温里赶寒、赶食、吸毒。
+    \item 适应证：风寒或停食所致肚子痛、肚子饱胀，饮食不洁所致呕吐、屙肚子等。
+    \item \redt{禁忌：}虫积或火盛而致的大便硬结、肚子胀、肚子痛等。
+  \end{itemize}
+  \item 刮痧疗法
+  \begin{itemize}
+    \item 方法：用刮痧板蘸取植物油或清水，反复刮动摩擦穴位或体表肌肤。
+    \item 功效：发散解表、舒筋活络、调整肚肠等功能。
+    \item 适应证：中暑、伤风、伤寒发凉、发热、喉蛾等。
+  \end{itemize}
+  \item 封刀接骨法
+  \begin{itemize}
+    \item 复位基本手法：一揉摸，二捏位，三摇拐，四抵崴。
+    \item 骨折固定法：鲜鸡接骨法、杉树皮接骨法、竹片接骨法、柳木接骨法、泡桐木接骨法、纸壳接骨法。
+    \item 外敷药物：三百棒、独正岗、刺老苞、爬地麻、内红消、八月拿、黑虎七。
+  \end{itemize}
+\end{enumerate}
+
+\section{土家医常用药}
+
+% 土家药物学基本理论：
+
+\begin{enumerate}
+  \item 命名特点
+  \begin{itemize}
+    \item 形态、功能主治、味道、生活环境特征、药用部位、颜色特点、植物名。
+  \end{itemize}
+  \item 药物性能
+  \begin{itemize}
+    \item 三性：凉（寒）、温（热）、平。
+    \item 八味：酸、甜、苦、辣、咸、涩、麻、淡。
+  \end{itemize}
+\end{enumerate}
+
+% \begin{itemize}
+
+% \end{itemize}
+
+\subsection{发表药}
+
+又称解表药，以\redt{赶风赶热}为主，辣散轻扬，行肌表，有促进肌体发汗，使表寒表热之邪由汗出而解的作用。兼有利尿消肿、止咳、止痛、消疮等作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  生姜 & 赶风、赶寒、赶气，解毒 \\ \hline
+  野葛根 & 解肌透疹，止渴     \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{note}
+  「中药学」生姜：解表散寒，温中止呕，化痰止咳，解鱼蟹毒。
+\end{note}
+
+\subsection{赶风药}
+
+又称风湿药，以驱除筋骨、骨肉之间的\redt{风寒湿邪}，解除\redt{痹痛}为主，有驱风散寒除湿、舒筋活络、强筋健骨等作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  江边一碗水  & 驱风除湿，破瘀散结，止痛，解毒 \\ \hline
+  天王七     & 驱风除湿，活血调经，止痛，止血     \\ \hline
+  野乌头     & 驱风除湿，活血化瘀               \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{败火药}
+
+又称败毒药，以消除人体\redt{火毒}为主，有泻火、燥湿、凉血、解毒、清虚火等功能。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  三颗针    & 败火燥湿，泻火解毒     \\ \hline
+  八角莲    & 败火散结，散瘀止痛     \\ \hline
+  小四块瓦  & 败火解毒，镇痉         \\ \hline
+  海螺七*    & 败火解毒，止痛，解痉，\redt{活血化淤}    \\ \hline
+  马桑根*    & 清热解毒，驱风除湿，镇痛，杀虫   \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{赶食药}
+
+又称消食药，以消积导滞，促进消化，治疗饮食积滞为主，有开胃和中的作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  隔山消* & 健脾消食，解毒消痈，养阴补虚，利尿。 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{泻下药}
+
+能引起腹泻或润滑大肠，促进排便的药物，有泻下通便，排除胃物积滞、燥屎及有害物质，清热泻火，逐水消肿等作用。
+
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  血丝大黄 & 泻下通便，败火解毒，活血散瘀  \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{note}
+「中药学」大黄：泻下攻积，清热泻火，凉血解毒，止血，逐瘀通经，利湿退黄。
+\end{note}
+
+\subsection{打伤药}
+
+治疗各种暴力所致\redt{人体内外受伤}的药物，有活血化淤，消肿止痛，接筋续骨，止血生肌敛疮等作用。除跌打损伤外，也可用于其他一般血瘀病症。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  接骨丹* & 舒血活络，驱风除湿 \\ \hline
+  八棱麻* & \redt{茎叶：}利尿消肿，活血止痛；\redt{根：}散瘀消肿，祛风活络 \\ \hline
+  头顶一颗珠 & 镇惊安神，驱风活血止痛 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{止痛药}
+
+以调和气血，从而达到止痛作用的药物，多具\redt{辣味}，主治\redt{气滞血瘀}所致的痛症，也可用于其他瘀血症。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  三百棒* & 活血舒筋，消肿止痛 \\ \hline
+  四块瓦* & 舒筋活络，驱风除湿，消肿止痛 \\ \hline
+  \makecell[l]{半截烂* \\ \redt{雪里见}} & 消肿解毒，驱风除湿 \\ \hline
+  刺老苞 & 驱风除湿，散瘀消肿，活血止血，利尿止痛 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{消水药}
+
+又称利水药，以通利小便，渗出水液治疗\redt{水液内停}病症为主，具有利水消肿，利尿通淋，利湿退黄等作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  克马叶 & 利水消肿 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{蛇药}
+
+以治疗毒蛇咬伤为主的药物。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  半边莲 & 解蛇毒，利水消肿 \\ \hline
+  蛇不过* & 败火解毒，赶风止咳，杀虫止痒，\redt{利湿消肿}  \\ \hline
+  黄瓜香* & 败火解毒，排脓，\redt{消肿} \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{止咳药}
+
+能制止或减轻咳吼，祛除痰涎或消化痰积的药物。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  三步跳 & \redt{内用：}燥湿化痰，降逆止咳，消痛散结；\redt{外用：}消肿止痛     \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{补虚药}
+
+又称补养药，补益药，补药。主用于三元亏损，气、血虚弱的疾患。具有补养人体，\redt{扶正祛邪}的作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  罗汉七 & 补脾润肺，养阴生津 \\ \hline
+  野党参* & 健中元，补肺气，祛痰止咳 \\  \hline
+  恩施巴戟 & 补肾壮阳，强筋壮骨 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{活血药}
+
+通畅血行，消散淤血为主要作用的药物，善于走散通行，适用于一切\redt{瘀血阻滞}之证。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  冷水七 & 散瘀消肿，止血止痛，败火驱风 \\ \hline
+  \makecell[l]{独正岗* \\ \redt{蛇葡萄}} & 活血散瘀，消肿止痛  \\  \hline
+  \end{tabular}
+\end{table}
+
+\subsection{止血药}
+
+能够制止人体内外\redt{各种出血}的药物，具有凉血止血、化瘀止血、收敛止血、温经止血等作用，适用于内外各种出血病证。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  文王一支笔 & 清热解毒，凉血止血，固肾涩精，\redt{解酒}    \\ \hline
+  白三七* & 止血，散瘀通络，\redt{滋补强壮}   \\   \hline
+  红子 & \redt{果：}健脾消积，活血止血；\redt{叶：}清热解毒；\redt{根：}清热凉血  \\  \hline
+  \end{tabular}
+\end{table}
+
+\subsection{妇科药及喜药}
+
+用于治疗妇科疾病及产科病证的药物，具有活血调经、安胎、止带或者堕胎的作用。
+
+\begin{table}[H]
+  \begin{tabular}{|l|l|}
+  \hline
+  扇子草 & 活血调经，散瘀止痛 \\ \hline
+  \end{tabular}
+\end{table}
+
+\end{document}
